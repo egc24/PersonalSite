@@ -18,4 +18,5 @@ Route::get('/resume', function(){return view('resume');});
 Route::get('/contact', function(){return view('contact');});
 Route::get('/blog', function(){return view('blog');});
 Route::get('/bio', function(){return view('bio');});
+Route::get('/blogArticle', function(){return view('blogArticle');});
 

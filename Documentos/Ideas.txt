@@ -1,0 +1,36 @@
+Estructuras posible:
+
+1 - Navbar indice que lleva a las distintas secciones con navbar movil
+2 - Estructura estandar, el navbar te lleva a diferentes paginas enteras
+3 - Combinacion de 1 y 2
+
+Secciones posibles:
+
+Navbar: nombre mio gigante
+
+1 - Home o Welcome: 
+		- imagen y texto que cuentan sobre la idea, el negocio, etc. (no hay detalle).
+		- posibilidad de un video donde cuente mis experiencias etc.
+		- ultimos proyectos
+2 - Portfolio o Proyectos: donde se puede imagen y texto una por cada proyecto distinto que se llevo a cabo, breve resumen
+	y posibilidad de obtener mas detalle. Posibilidad de incluir testimonios
+3 - Contact: tipico formulario de contacto con la posibilidad de mandar mail.
+4 - Footer: repite las secciones del navbar, redes sociales.
+5 - About: seccion acerca de mi fotos, historias, etc. (copy paste algunas partes del home).
+6 - Bio o resume: curriculum estilo el que tengo.
+7 - Blog: donde pongo articulos sobre cuestiones que me interesan
+8 - FAQ o preguntas frecuentes: seccion con preguntas frecuentes de la genete que me contacta.
+
+Ideas:
+
+- Agrupar secciones en un mismo boton para reducir las posibilidades 
+- https://www.devonstank.com/
+
+Paletas:
+
+- https://designschool.canva.com/blog/website-color-schemes/ (3, 6, 16, 18, 20, 9, 49)
+
+Herramientas de diseño:
+
+- http://fontmeme.com/old-english-fonts/ Medieval
+- https://maps-generator.com/es	

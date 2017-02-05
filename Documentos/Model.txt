@@ -1,0 +1,43 @@
+parameter_types
+	-id
+	-type
+
+parameters
+	-id
+	-key
+	-value
+	-type_id
+
+articles
+	-id
+	-title
+	-author
+	-brief
+	-date
+	-content
+	-image_id -> parameters.id
+
+comments
+	-id
+	-author
+	-date
+	-content
+	-image_id -> parameters.id
+	-article_id -> articles.id
+
+time_line_items
+	-id
+	-title
+	-date
+	-content
+	-image_id -> parameters.id
+
+gallery_images
+	-id
+	-image_id -> parameters.id
+	-gallery_id -> galleries.id
+
+galleries
+	-id
+	-description
+
