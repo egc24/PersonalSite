@@ -1,0 +1,11 @@
+// Composer
+composer create-project laravel/laravel "Personal Site" "5.0.*" --prefer-dist -> crear proyecto laravel
+
+// Laravel
+php artisan serve --port=9999 -> iniciar el servidor
+
+// SublimeTex
+ctrl+shift+k -> borrar linea entera
+ctrl+shift+up/down -> mover linea para arriba o para abajo
+ctrl+shift+f -> buscar palabra en todo el proyecto
+ctrl+p -> buscar recurso en el proyecto

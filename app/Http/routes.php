@@ -11,11 +11,10 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+//Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'HomeController@index');
+Route::get('/', function(){return view('welcome');});
+Route::get('/resume', function(){return view('resume');});
+Route::get('/contact', function(){return view('contact');});
+Route::get('/blog', function(){return view('blog');});
 
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
