@@ -26,7 +26,7 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sobre Mi<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="{{url('')}}">Bio</a></li>
+              <li><a href="{{url('bio')}}">Bio</a></li>
               <li><a href="{{url('resume')}}">Resume</a></li>
             </ul>
           </li>

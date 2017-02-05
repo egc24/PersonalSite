@@ -36,6 +36,8 @@
     color: white;
 }
 
+/* Social */
+
 .social {
     margin: 0;
     padding: 0;
@@ -160,3 +162,4 @@
 .social .fa-youtube-play:hover {
     background: #DF192A;
 }
+
