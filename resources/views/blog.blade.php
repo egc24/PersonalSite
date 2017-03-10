@@ -1,7 +1,7 @@
 @extends('sitePage')
 
 @section('title')
-  Blog - Eduardo Gonzalez Calderon
+  {{$pageTitle}}
 @stop
 
 @section('content')
@@ -12,8 +12,8 @@
       <div class="col-md-12">
 
           <h1 class="page-header">
-              <p>Loblog</p>
-              <p><small>Un Blog de Tecnologia</small></p>
+              <p>{{$title}}</p>
+              <p><small>{{$subtitle}}</small></p>
           </h1>
 
           <!-- First Blog Post -->

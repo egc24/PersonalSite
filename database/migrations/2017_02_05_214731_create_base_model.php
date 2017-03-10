@@ -101,13 +101,13 @@ class CreateBaseModel extends Migration {
 	 */
 	public function down()
 	{
-	    Schema::drop('parameter_types');
-		Schema::drop('parameters');
-		Schema::drop('articles');
-		Schema::drop('comments');
-		Schema::drop('time_line_items');
 		Schema::drop('gallery_images');
 		Schema::drop('galleries');
+		Schema::drop('time_line_items');
+		Schema::drop('comments');
+		Schema::drop('articles');
+		Schema::drop('parameters');
+	    Schema::drop('parameter_types');
 	}
 
 }

@@ -1,5 +1,7 @@
 <?php namespace App\Http\Controllers;
 
+use App\DAO\ParameterDAO;
+
 class WelcomeController extends Controller {
 
 	/*
@@ -30,7 +32,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		return ParameterDAO::getAllParametersOfTypeWhithKey('link','key2')->first()->value;
 	}
 
 }

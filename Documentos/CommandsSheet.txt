@@ -5,6 +5,7 @@ composer create-project laravel/laravel "Personal Site" "5.0.*" --prefer-dist ->
 php artisan serve --port=9999 -> iniciar el servidor
 php artisan make:migration create_users_table -> crear migracion
 php artisan migrate -> correr migraciones
+composer dump-autoload
 php artisan migrate:rollback --steps=5 -> correr rollbacks
 
 // SublimeTex
